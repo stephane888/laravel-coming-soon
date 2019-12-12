@@ -1,0 +1,27 @@
+{
+	"name" : "stephane888/laravel-coming-soon",
+	"description" : "Laravel coming soon",
+	"type" : "library",
+	"license" : "MIT",
+	"version" : "1.0",
+	"authors" : [{
+			"name" : "stephane888",
+			"email" : "kksasteph888@gmail.com",
+			"homepage" : "http://wb-universe.com",
+			"role" : "Developer"
+		}
+	],
+	"minimum-stability" : "stable",
+	"autoload" : {
+		"psr-4" : {
+			"Stephane888\\LaravelComingSoon\\" : "src/"
+		}
+	},
+	"extra" : {
+		"laravel" : {
+			"providers" : [
+				"Stephane888\\LaravelComingSoon\\ComingSoonServiceProvider"
+			]
+		}
+	}
+}
